@@ -12,7 +12,7 @@ body {
   align-items: center;
   height: 100vh;
   font-family: open sans;
-  color: #10214e;
+  color: #efb506;
 }
 
 article {
@@ -26,7 +26,7 @@ article {
   min-width: 20em;
   border-radius: 1rem;
   background: rgb(0,239,255);
-  background: linear-gradient(0deg, rgba(0,239,255,1) 40%, #4e54c8 100%);
+  background: linear-gradient(0deg, rgb(0, 0, 0) 40%, #2b2c31 100%);
   box-shadow: 0 0 20px 20px rgba(0,0,0,.1);
   transition: .25s;
 }
