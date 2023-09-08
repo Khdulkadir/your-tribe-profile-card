@@ -25,8 +25,7 @@ article {
   max-width: 20em;
   min-width: 20em;
   border-radius: 50rem;
-  background: rgb(0,239,255);
-  background: linear-gradient(0deg, #1e1e1e 40%, #1e1e1e 100%);
+  background-color: #1e1e1e;
   box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.722);
   transition: .25s;
   border: 5px solid #f5bf88;
@@ -86,7 +85,7 @@ article > p {
   height: 50px; margin-top: 10px}
 
 .custom-link {
-  color: black;
+  color: #1e1e1e;
   text-decoration: none;
   transition: color 0.3s;
 }
@@ -96,4 +95,24 @@ article > p {
   color: white;
 }
 
+#card {
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s, border-color 0.5s;
 
+}
+
+#card.flipped {
+  transform: rotateX(180deg);}
+
+.flipped {border-color: #1e1e1e;
+transition: transform 1.5s, background-color 0.5s; background-color:#f5bf88;}
+
+#card.flipped p {
+  background-color: #f5bf88; transition: background-color 0.5s;}
+  
+ 
+#img1 {backface-visibility: hidden;}
+h1 {backface-visibility: hidden;}
+h2 {backface-visibility: hidden;}
+.custom-link {backface-visibility: hidden}
