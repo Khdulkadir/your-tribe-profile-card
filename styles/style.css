@@ -109,7 +109,7 @@ article > p {
 transition: transform 1.5s, background-color 0.5s; background-color:#f5bf88;}
 
 #card.flipped p {
-  background-color: #f5bf88; transition: background-color 0.5s;}
+  background-color: #f5bf88; transition: background-color 0.5s; backface-visibility: hidden}
   
  
 #img1 {backface-visibility: hidden;}
